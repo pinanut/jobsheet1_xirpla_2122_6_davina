@@ -1,0 +1,139 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+
+/* btn */
+.btn{
+    display: inline-block;
+    border-radius: 3rem;
+    background:rgb(230, 214, 165);
+    color: rgb(11, 12, 1);
+    padding: 10px 5px;
+    cursor:grab;
+    font-size: 1.0rem;
+    margin-bottom: 5px;
+    width: 150px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+ .btn:hover{
+    background: #d1d896;
+} 
+/* default style */
+body{
+    margin: 0;
+    line-height: 1.5;
+    font-size: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+:before, :after{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle; 
+}
+.container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+
+
+/* home section */
+.home-section{
+    min-height: 100px;
+    background-color: rgb(252, 248, 248);
+}
+.home-section.row{
+    min-height: 100px;
+}
+.home-section .home-content{
+    text-align:center;
+    margin-top: 35px; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+    
+.home-section .home-content p{
+    font-size: 60px;
+    color: rgb(224, 212, 169);
+    text-shadow: 0 0 25px black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Charm', cursive;
+    text-shadow: 2px 2px black;
+
+}
+.home-section .home-content h1{
+    font-size: 30px;
+    color: rgb(224, 212, 169);
+    margin-top: 10px;
+    font-weight: normal;
+    font-family: 'Moon Dance', cursive;
+    letter-spacing: 15px;
+    text-shadow: 2px 2px black;
+
+}
+.home-section .home-content h2{
+    font-size: 30px;
+    color: rgb(224, 212, 169);
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Cinzel', sans-serif;
+    line-height: 0.8;
+    text-shadow: 2px 2px black;
+    letter-spacing: 8px;
+
+}
+.home-section .home-content h3{
+    font-size: 30px;
+    color:rgb(224, 212, 169);
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Cormorant Garamond', serif;
+    text-shadow: 2px 2px black;
+
+}
+.home-section .home-content h4{
+    font-size: 45px;
+    color:rgb(224, 212, 169);
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Marck Script', cursive;
+}
+.home-section .slide{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home-section .row{
+    min-height: 100vh;
+}
+
